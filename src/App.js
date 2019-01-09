@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Query } from 'react-apollo';
+import launchesQuery from './queries/launches';
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App row center-xs">
+        <div className="col-xs-12">
+          <h1>SpaceX</h1>
+        </div>
+        <div className="col-xs-12">
+          <Query query={launchesQuery}>
+            {({ loading, error, data }) => {
+              if (loading) return <div>Loading...</div>;
+              return data.launches.map(launch => (
+                <div key={launch.mission_name} className="row launch-card">
+                  <div className="col-xs">{launch.mission_name}</div>
+                  <div className="col-xs">{launch.launch_year}</div>
+                </div>
+              ));
+            }}
+          </Query>
+        </div>
       </div>
     );
   }
