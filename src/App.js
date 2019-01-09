@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Query } from 'react-apollo';
 import launchesQuery from './queries/launches';
 
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   render() {
@@ -15,10 +15,14 @@ class App extends Component {
           <Query query={launchesQuery}>
             {({ loading, error, data }) => {
               if (loading) return <div>Loading...</div>;
+              if (error) return <div>Ops... Try again</div>
+
               return data.launches.map(launch => (
                 <div key={launch.mission_name} className="row launch-card">
-                  <div className="col-xs">{launch.mission_name}</div>
-                  <div className="col-xs">{launch.launch_year}</div>
+                  <div className="col-xs">
+                    <p>{launch.mission_name}</p>
+                    <p>{launch.launch_year}</p>
+                  </div>
                 </div>
               ));
             }}
