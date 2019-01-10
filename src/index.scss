@@ -13,3 +13,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button, .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: default;
+  border: 1px;
+  background-color: #1f6dc7;
+  color: white;
+  font-weight: bold;
+  height: 40px;
+  padding: 1em;
+  margin: 10px;
+  width: 100%;
+}
+
+.btn--small {
+  height: 20px;
+  padding: 0.5em;
+}
+
+button:hover, .btn:hover {
+  background-color: #18559a;
+}

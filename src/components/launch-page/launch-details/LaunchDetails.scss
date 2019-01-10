@@ -1,0 +1,27 @@
+.LaunchDetails {
+  margin: 0;
+  padding: 10px;
+  &__header {
+    text-align: center;
+  }
+
+  &__content {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: left;
+    padding: .625em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.2);
+  }
+
+  &__launch_status {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: green;
+
+    &--failed {
+      color: red;
+    }
+  }
+}
