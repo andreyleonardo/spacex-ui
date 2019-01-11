@@ -1,0 +1,1073 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Launch Page renders without crash 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LaunchDetails
+    data={
+      Object {
+        "rocket": Object {},
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <header
+          className="LaunchDetails__header col-xs-12"
+        >
+          <h1>
+            SpaceX - Mission: undefined
+          </h1>
+        </header>,
+        <div
+          className="LaunchDetails__content col-xs col-sm-8 col-sm-offset-2"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-xs-12 col-sm"
+            >
+              <h2>
+                Mission Details
+              </h2>
+              <p>
+                <span>
+                  Name: 
+                </span>
+              </p>
+              <p>
+                <span>
+                  Year: 
+                </span>
+              </p>
+              <p>
+                <span>
+                  Succeeded: 
+                </span>
+                <span
+                  className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                >
+                  No
+                </span>
+              </p>
+            </div>
+            <div
+              className="col-xs-12 col-sm"
+            >
+              <h2>
+                Rocket Details
+              </h2>
+              <p>
+                <span>
+                  Name: 
+                </span>
+              </p>
+              <p>
+                <span>
+                  Type: 
+                </span>
+              </p>
+            </div>
+          </div>
+          <div
+            className="row"
+          >
+            <Link
+              className="btn btn--small"
+              replace={false}
+              to="/launches"
+            >
+              Back
+            </Link>
+          </div>
+        </div>,
+      ],
+      "className": "LaunchDetails row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h1>
+            SpaceX - Mission: undefined
+          </h1>,
+          "className": "LaunchDetails__header col-xs-12",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "SpaceX - Mission: undefined",
+          },
+          "ref": null,
+          "rendered": "SpaceX - Mission: undefined",
+          "type": "h1",
+        },
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="row"
+            >
+              <div
+                className="col-xs-12 col-sm"
+              >
+                <h2>
+                  Mission Details
+                </h2>
+                <p>
+                  <span>
+                    Name: 
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Year: 
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Succeeded: 
+                  </span>
+                  <span
+                    className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                  >
+                    No
+                  </span>
+                </p>
+              </div>
+              <div
+                className="col-xs-12 col-sm"
+              >
+                <h2>
+                  Rocket Details
+                </h2>
+                <p>
+                  <span>
+                    Name: 
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Type: 
+                  </span>
+                </p>
+              </div>
+            </div>,
+            <div
+              className="row"
+            >
+              <Link
+                className="btn btn--small"
+                replace={false}
+                to="/launches"
+              >
+                Back
+              </Link>
+            </div>,
+          ],
+          "className": "LaunchDetails__content col-xs col-sm-8 col-sm-offset-2",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="col-xs-12 col-sm"
+                >
+                  <h2>
+                    Mission Details
+                  </h2>
+                  <p>
+                    <span>
+                      Name: 
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Year: 
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Succeeded: 
+                    </span>
+                    <span
+                      className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                    >
+                      No
+                    </span>
+                  </p>
+                </div>,
+                <div
+                  className="col-xs-12 col-sm"
+                >
+                  <h2>
+                    Rocket Details
+                  </h2>
+                  <p>
+                    <span>
+                      Name: 
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Type: 
+                    </span>
+                  </p>
+                </div>,
+              ],
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h2>
+                      Mission Details
+                    </h2>,
+                    <p>
+                      <span>
+                        Name: 
+                      </span>
+                    </p>,
+                    <p>
+                      <span>
+                        Year: 
+                      </span>
+                    </p>,
+                    <p>
+                      <span>
+                        Succeeded: 
+                      </span>
+                      <span
+                        className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                      >
+                        No
+                      </span>
+                    </p>,
+                  ],
+                  "className": "col-xs-12 col-sm",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Mission Details",
+                    },
+                    "ref": null,
+                    "rendered": "Mission Details",
+                    "type": "h2",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <span>
+                        Name: 
+                      </span>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Name: ",
+                          undefined,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Name: ",
+                        undefined,
+                      ],
+                      "type": "span",
+                    },
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <span>
+                        Year: 
+                      </span>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Year: ",
+                          undefined,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Year: ",
+                        undefined,
+                      ],
+                      "type": "span",
+                    },
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <span>
+                          Succeeded: 
+                        </span>,
+                        <span
+                          className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                        >
+                          No
+                        </span>,
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Succeeded: ",
+                        },
+                        "ref": null,
+                        "rendered": "Succeeded: ",
+                        "type": "span",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "No",
+                          "className": "LaunchDetails__launch_status LaunchDetails__launch_status--failed",
+                        },
+                        "ref": null,
+                        "rendered": "No",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <h2>
+                      Rocket Details
+                    </h2>,
+                    <p>
+                      <span>
+                        Name: 
+                      </span>
+                    </p>,
+                    <p>
+                      <span>
+                        Type: 
+                      </span>
+                    </p>,
+                  ],
+                  "className": "col-xs-12 col-sm",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Rocket Details",
+                    },
+                    "ref": null,
+                    "rendered": "Rocket Details",
+                    "type": "h2",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <span>
+                        Name: 
+                      </span>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Name: ",
+                          undefined,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Name: ",
+                        undefined,
+                      ],
+                      "type": "span",
+                    },
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <span>
+                        Type: 
+                      </span>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Type: ",
+                          undefined,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Type: ",
+                        undefined,
+                      ],
+                      "type": "span",
+                    },
+                    "type": "p",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <Link
+                className="btn btn--small"
+                replace={false}
+                to="/launches"
+              >
+                Back
+              </Link>,
+              "className": "row",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Back",
+                "className": "btn btn--small",
+                "replace": false,
+                "to": "/launches",
+              },
+              "ref": null,
+              "rendered": "Back",
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="LaunchDetails__header col-xs-12"
+          >
+            <h1>
+              SpaceX - Mission: undefined
+            </h1>
+          </header>,
+          <div
+            className="LaunchDetails__content col-xs col-sm-8 col-sm-offset-2"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-xs-12 col-sm"
+              >
+                <h2>
+                  Mission Details
+                </h2>
+                <p>
+                  <span>
+                    Name: 
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Year: 
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Succeeded: 
+                  </span>
+                  <span
+                    className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                  >
+                    No
+                  </span>
+                </p>
+              </div>
+              <div
+                className="col-xs-12 col-sm"
+              >
+                <h2>
+                  Rocket Details
+                </h2>
+                <p>
+                  <span>
+                    Name: 
+                  </span>
+                </p>
+                <p>
+                  <span>
+                    Type: 
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <Link
+                className="btn btn--small"
+                replace={false}
+                to="/launches"
+              >
+                Back
+              </Link>
+            </div>
+          </div>,
+        ],
+        "className": "LaunchDetails row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              SpaceX - Mission: undefined
+            </h1>,
+            "className": "LaunchDetails__header col-xs-12",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "SpaceX - Mission: undefined",
+            },
+            "ref": null,
+            "rendered": "SpaceX - Mission: undefined",
+            "type": "h1",
+          },
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row"
+              >
+                <div
+                  className="col-xs-12 col-sm"
+                >
+                  <h2>
+                    Mission Details
+                  </h2>
+                  <p>
+                    <span>
+                      Name: 
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Year: 
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Succeeded: 
+                    </span>
+                    <span
+                      className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                    >
+                      No
+                    </span>
+                  </p>
+                </div>
+                <div
+                  className="col-xs-12 col-sm"
+                >
+                  <h2>
+                    Rocket Details
+                  </h2>
+                  <p>
+                    <span>
+                      Name: 
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      Type: 
+                    </span>
+                  </p>
+                </div>
+              </div>,
+              <div
+                className="row"
+              >
+                <Link
+                  className="btn btn--small"
+                  replace={false}
+                  to="/launches"
+                >
+                  Back
+                </Link>
+              </div>,
+            ],
+            "className": "LaunchDetails__content col-xs col-sm-8 col-sm-offset-2",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-xs-12 col-sm"
+                  >
+                    <h2>
+                      Mission Details
+                    </h2>
+                    <p>
+                      <span>
+                        Name: 
+                      </span>
+                    </p>
+                    <p>
+                      <span>
+                        Year: 
+                      </span>
+                    </p>
+                    <p>
+                      <span>
+                        Succeeded: 
+                      </span>
+                      <span
+                        className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                      >
+                        No
+                      </span>
+                    </p>
+                  </div>,
+                  <div
+                    className="col-xs-12 col-sm"
+                  >
+                    <h2>
+                      Rocket Details
+                    </h2>
+                    <p>
+                      <span>
+                        Name: 
+                      </span>
+                    </p>
+                    <p>
+                      <span>
+                        Type: 
+                      </span>
+                    </p>
+                  </div>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h2>
+                        Mission Details
+                      </h2>,
+                      <p>
+                        <span>
+                          Name: 
+                        </span>
+                      </p>,
+                      <p>
+                        <span>
+                          Year: 
+                        </span>
+                      </p>,
+                      <p>
+                        <span>
+                          Succeeded: 
+                        </span>
+                        <span
+                          className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                        >
+                          No
+                        </span>
+                      </p>,
+                    ],
+                    "className": "col-xs-12 col-sm",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Mission Details",
+                      },
+                      "ref": null,
+                      "rendered": "Mission Details",
+                      "type": "h2",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span>
+                          Name: 
+                        </span>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Name: ",
+                            undefined,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Name: ",
+                          undefined,
+                        ],
+                        "type": "span",
+                      },
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span>
+                          Year: 
+                        </span>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Year: ",
+                            undefined,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Year: ",
+                          undefined,
+                        ],
+                        "type": "span",
+                      },
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <span>
+                            Succeeded: 
+                          </span>,
+                          <span
+                            className="LaunchDetails__launch_status LaunchDetails__launch_status--failed"
+                          >
+                            No
+                          </span>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Succeeded: ",
+                          },
+                          "ref": null,
+                          "rendered": "Succeeded: ",
+                          "type": "span",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "No",
+                            "className": "LaunchDetails__launch_status LaunchDetails__launch_status--failed",
+                          },
+                          "ref": null,
+                          "rendered": "No",
+                          "type": "span",
+                        },
+                      ],
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <h2>
+                        Rocket Details
+                      </h2>,
+                      <p>
+                        <span>
+                          Name: 
+                        </span>
+                      </p>,
+                      <p>
+                        <span>
+                          Type: 
+                        </span>
+                      </p>,
+                    ],
+                    "className": "col-xs-12 col-sm",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Rocket Details",
+                      },
+                      "ref": null,
+                      "rendered": "Rocket Details",
+                      "type": "h2",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span>
+                          Name: 
+                        </span>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Name: ",
+                            undefined,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Name: ",
+                          undefined,
+                        ],
+                        "type": "span",
+                      },
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <span>
+                          Type: 
+                        </span>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Type: ",
+                            undefined,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Type: ",
+                          undefined,
+                        ],
+                        "type": "span",
+                      },
+                      "type": "p",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Link
+                  className="btn btn--small"
+                  replace={false}
+                  to="/launches"
+                >
+                  Back
+                </Link>,
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Back",
+                  "className": "btn btn--small",
+                  "replace": false,
+                  "to": "/launches",
+                },
+                "ref": null,
+                "rendered": "Back",
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

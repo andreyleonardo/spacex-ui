@@ -4,7 +4,6 @@ import LaunchesPage from './launches-page/LaunchesPage';
 import LaunchPage from './launch-page/LaunchPage';
 import ErrorHandler from './error-handler/ErrorHandler';
 
-
 import './App.scss';
 
 class App extends Component {

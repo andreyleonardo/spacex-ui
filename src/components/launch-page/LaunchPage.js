@@ -5,12 +5,11 @@ import LaunchDetails from './launch-details/LaunchDetails';
 
 const LaunchPage = ({ match: { params: { id } } }) => (
   <div className="LaunchPage">
-      {console.log(id)}
-      <QueryWrapper query={launchDetails} variables={{ flight_number: parseInt(id) }}>
-        {({ launch }) => {
-          return <LaunchDetails data={launch} />
-        }}
-      </QueryWrapper>
+    <QueryWrapper query={launchDetails} variables={{ flight_number: parseInt(id) }}>
+      {({ launch }) => {
+        return <LaunchDetails data={launch} />
+      }}
+    </QueryWrapper>
   </div>
 );
 
