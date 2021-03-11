@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# SpaceX UI | React + Apollo-Client Study
+# SpaceX UI | React + Apollo-Client Example
 
 This is a [React](http://reactjs.org/) + [Apollo](http://apollographql.com/) application that calls a GraphQL server that connects with [SpaceX API](https://documenter.getpostman.com/view/2025350/RWaEzAiG) and displays SpaceX launches information.
 
